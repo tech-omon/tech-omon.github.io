@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>OMON - On My Own Now!</title>
+    <meta property="og:type" content="website"/>
+    <!-- Favicon -->
+    <link href="assets/favicon.ico" rel="icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/index.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <img src="./assets/img/logo.jpeg" style="max-height: 100px;margin: 5px">
+        <h1 class="logo ml-2 mr-auto text-bold"><a href="index.html" style="font-family:'Amatic SC';font-size:45px">On My <span>Own Now!</span></a></h1>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li><a href="contact.html"> <i class="fa fa-address-book"></i>  Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main container -->
+    <div class="container" style="margin-top: 150px; text-align: center">
+      <div id="productsContainer" class="row">
+        <!-- Items here -->
+      </div>
+    </div>
+
+    <!-- Details Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="font-family: 'Indie Flower';">
+            <div class="card" style="width: 80%;display:block;margin:auto;">
+              <img class="card-img-top" id="product-img" src="">
+            </div>
+            <br>
+            <div class="ml-3">
+              <h1 id="product-name" style="color: #106eea"></h1>
+              <h3 id="product-cost" style="color: #dc3545"></h3>
+              <h4 id="product-desc"></h4>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a type="button" class="btn btn-primary" href="contact.html">Enquire details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Details Modal end -->
+
+    <!-- Footer -->
+    <div class="container-fluid text-center sticky-bottom" id="footer">
+      <p>© 2021 <a>OMON</a> | All rights reserved</a></p>
+    </div>
+  </body>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js" charset="utf-8"></script>
+  <script src="assets/js/products.js" charset="utf-8"></script>
+</html>

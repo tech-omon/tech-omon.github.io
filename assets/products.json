@@ -1,0 +1,163 @@
+{
+    "1": {
+        "fileName": "1.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 5",
+        "status": "1"
+    },
+    "2": {
+        "fileName": "2.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 6",
+        "status": "1"
+    },
+    "3": {
+        "fileName": "3.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 7",
+        "status": "1"
+    },
+    "4": {
+        "fileName": "4.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 8",
+        "status": "1"
+    },
+    "5": {
+        "fileName": "5.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 9",
+        "status": "1"
+    },
+    "6": {
+        "fileName": "6.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 10",
+        "status": "1"
+    },
+    "7": {
+        "fileName": "7.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 11",
+        "status": "1"
+    },
+    "8": {
+        "fileName": "8.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 12",
+        "status": "1"
+    },
+    "9": {
+        "fileName": "9.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 13",
+        "status": "1"
+    },
+    "10": {
+        "fileName": "10.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 14",
+        "status": "1"
+    },
+    "11": {
+        "fileName": "11.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 15",
+        "status": "1"
+    },
+    "12": {
+        "fileName": "12.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 16",
+        "status": "1"
+    },
+    "13": {
+        "fileName": "13.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 17",
+        "status": "1"
+    },
+    "14": {
+        "fileName": "14.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 18",
+        "status": "1"
+    },
+    "15": {
+        "fileName": "15.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 19",
+        "status": "1"
+    },
+    "16": {
+        "fileName": "16.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 20",
+        "status": "1"
+    },
+    "17": {
+        "fileName": "17.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 21",
+        "status": "1"
+    },
+    "18": {
+        "fileName": "18.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 22",
+        "status": "1"
+    },
+    "19": {
+        "fileName": "19.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 23",
+        "status": "1"
+    },
+    "20": {
+        "fileName": "20.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 24",
+        "status": "1"
+    },
+    "21": {
+        "fileName": "21.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 25",
+        "status": "1"
+    },
+    "22": {
+        "fileName": "22.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 26",
+        "status": "1"
+    },
+    "23": {
+        "fileName": "23.jpg",
+        "productName": "Product Name",
+        "description": "Small description about the item",
+        "price": "$ 27",
+        "status": "1"
+    }
+}
