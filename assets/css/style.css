@@ -21,18 +21,10 @@
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #ffcf41;
   transition: all 0.5s;
   z-index: 997;
-  padding: 12px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 700px) {
-  #header.header-scrolled {
-    top: 0;
-    padding: 3px 0px;
-  }
 }
 
 #header .logo {
@@ -76,7 +68,7 @@
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 25px;
   top: 15px;
   z-index: 9998;
   border: 0;
@@ -184,12 +176,6 @@
   color: #fff;
 }
 
-
-
-
-
-
-
 /* Desktop Navigation */
 .nav-menu ul {
   margin: 0;
@@ -213,7 +199,7 @@
   position: relative;
   color: #222222;
   transition: 0.3s;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   padding: 0 3px;
   font-family: 'Londrina Sketch', serif;
