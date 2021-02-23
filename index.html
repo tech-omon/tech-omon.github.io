@@ -16,7 +16,6 @@
     <link href="assets/favicon.ico" rel="icon">
 
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap;Londrina+Sketch&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
@@ -37,36 +36,29 @@
         <h1 class="logo mr-auto text-bold"><a href="index.html" style="font-family:'Amatic SC';font-size:45px">On My <span>Own Now!</span></a></h1>
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li><a href="cart.html">Cart <i class="fa fa-shopping-cart"></i></a></li>
-            <li><a href="user.html">Profile <i class="fa fa-user"></i></a></li>
+            <li><a href="user/profile.html">Cart <i class="fa fa-shopping-cart"></i></a></li>
+            <li><a href="user/login.html">Profile <i class="fa fa-user"></i></a></li>
+          </ul>
+          <ul class="d-lg-none">
+            <li><a href="user/profile.html">Carts <i class="fa fa-shopping-cart"></i></a></li>
+            <li><a href="user/login.html">Profile <i class="fa fa-user"></i></a></li>
+            <li><a href="user/login.html">Profile <i class="fa fa-user"></i></a></li>
+            <li><a href="user/login.html">Profile <i class="fa fa-user"></i></a></li>
           </ul>
         </nav>
       </div>
     </header>
     <!-- End Header -->
 
+    <!-- Main container -->
     <div class="container" style="margin-top: 100px; text-align: center">
       <div class="row">
-        <div class="col-lg-4 mb-5" style="text-align: center;">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="assets/img/frames/1.jpg" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <!-- Items -->
         <div class="col-lg-4 mb-5">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/img/frames/2.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <img src="assets/img/frames/1.jpg" style="width:350px;height:400px">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -76,14 +68,35 @@
             </div>
           </div>
           <br>
-          <img src="./assets/img/add_to_cart.jpg" alt="">
+          <button type="button" class="cart" data-toggle="modal" data-target="#exampleModal" data-name="Item 1" data-id="1" id="1">
+            <img src="./assets/img/add_to_cart.png">
+          </button>
+        </div>
+
+        <div class="col-lg-4 mb-5">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/img/frames/2.jpg" style="width:350px;height:400px">
+              </div>
+              <div class="flip-card-back">
+                <h1>John Doe</h1>
+                <p>Architect & Engineer</p>
+                <p>We love that guy</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <button type="button" class="cart" data-toggle="modal" data-target="#exampleModal" data-name="Item 1" data-id="1" id="1">
+            <img src="./assets/img/add_to_cart.png">
+          </button>
         </div>
       
         <div class="col-lg-4 mb-5">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/img/frames/3.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <img src="assets/img/frames/3.jpg" style="width:350px;height:400px">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -92,13 +105,17 @@
               </div>
             </div>
           </div>
+          <br>
+          <button type="button" class="cart" data-toggle="modal" data-target="#exampleModal" data-name="Item 1" data-id="1" id="1">
+            <img src="./assets/img/add_to_cart.png">
+          </button>
         </div>
 
         <div class="col-lg-4 mb-5">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/img/frames/4.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <img src="assets/img/frames/4.jpg" style="width:350px;height:400px">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -107,13 +124,17 @@
               </div>
             </div>
           </div>
+          <br>
+          <button type="button" class="cart" data-toggle="modal" data-target="#exampleModal" data-name="Item 1" data-id="1" id="1">
+            <img src="./assets/img/add_to_cart.png">
+          </button>
         </div>
 
         <div class="col-lg-4 mb-5">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/img/frames/1.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <img src="assets/img/frames/1.jpg" style="width:350px;height:400px">
               </div>
               <div class="flip-card-back">
                 <h1>John Doe</h1>
@@ -122,23 +143,60 @@
               </div>
             </div>
           </div>
+          <br>
+          <button type="button" class="cart" data-toggle="modal" data-target="#exampleModal" data-name="Item 1" data-id="1" id="1">
+            <img src="./assets/img/remove_cart.png">
+          </button>
         </div>
       
         <div class="col-lg-4 mb-5">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="assets/img/frames/2.jpg" alt="Avatar" style="width:300px;height:300px;">
+                <img src="assets/img/frames/2.jpg" style="width:350px;height:400px">
               </div>
               <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
+                <div class="center">
+                  <h1>John Doe</h1>
+                  <p>Architect & Engineer</p>
+                  <p>We love that guy</p>
+                </div>
               </div>
             </div>
           </div>
+          <br>
+          <button type="button" class="cart" data-toggle="modal" data-target="#exampleModal" data-name="Item 1" data-id="1" id="1">
+            <img src="./assets/img/add_to_cart.png">
+          </button>
         </div>
 
+      </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <input type="text" class="form-control" id="product-id" style="display: none;">
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Quantity:</label>
+                <input type="number" class="form-control" id="product-qty" value="1">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="addToCart()">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -153,4 +211,23 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js" charset="utf-8"></script>
+
+  <script>
+    $('#exampleModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var id = button.data('id')
+      var name = button.data('name')
+      var modal = $(this)
+      modal.find('.modal-title').text('Add ' + name +' to Cart?')
+      modal.find('.modal-body input#product-id').val(id)
+    })
+
+    function addToCart(){
+      var id = document.getElementById('product-id').value;
+      var qty = document.getElementById('product-qty').value;
+      console.log(id, qty);
+      document.getElementById(id).innerHTML = '<img src="./assets/img/remove_cart.png">'
+    }
+
+  </script>
 </html>

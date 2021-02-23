@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>OMON - On My Own Now!</title>
+    <!-- Favicons -->
+    <link href="../assets/favicon.ico" rel="icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/user.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo mr-auto text-bold"><a href="../index.html" style="font-family:'Amatic SC';font-size:45px">On My <span>Own Now!</span></a></h1>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li><a href="cart.html">Cart <i class="fa fa-shopping-cart"></i></a></li>
+            <li><a href="profile.html">Profile <i class="fa fa-user"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main" style="margin-top: 50px;">
+
+      <br><br>
+  
+      <section class="inner-page pt-4">
+        <div class="container">
+  
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="sidebar">
+  
+                <h3 class="sidebar-title">Profile Details</h3>
+                <div class="sidebar-item categories">
+                  <ul>
+                    <li><a href="profile.html">User Profile</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                  </ul>
+                </div>
+                <h3 class="sidebar-title">Transaction Details</h3>
+                <div class="sidebar-item categories">
+                  <ul>
+                    <li><a class="btn" href="#">Order Tracking</a></li>
+                    <li><a href="history.html">Purchase History</a></li>
+                  </ul>
+                </div><!-- End sidebar categories-->
+  
+                <h3 class="sidebar-title">Contact Us</h3>
+                <div class="sidebar-item categories">
+                  <ul>
+                    <li><i class="fa fa-envelope-o" style="color:#50d8af"></i>&nbsp;&nbsp; <a href="">contact@omon.com</a></li>
+                    <li><i class="fa fa-phone" style="color:#50d8af"></i>&nbsp;&nbsp;  <a href="tel:">+91 98877 12345</a></li>
+                  </ul>
+                </div>
+  
+              </div><!-- End sidebar -->
+            </div>
+  
+            <div class="col-lg-8">
+              <!-- Details Form -->
+              <div class="card mb-3">
+                <div class="card-header">
+                  <h2><b>User Profile</b></h2>
+                </div>
+                <div class="card-body">
+                  <h3><b>
+                    <form>
+                      <div class="form-group">
+                        <label for="orderID">Please Enter Order ID</label>
+                        <input type="text" class="form-control" id="orderID">
+                      </div>
+                    </form>
+                    <div class="text-center mb-3">
+                      <button class="btn btn-primary px-5" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <h4>Get Status</h4>
+                      </button>
+                    </div>
+                    <div class="collapse" id="collapseExample">
+                      <div class="alert alert-primary" role="alert">
+                        Your Order has been processed and shipped!
+                      </div>
+                    </div>
+                  </b></h3>
+                </div>
+              </div>                    
+
+            </div>
+          </div>
+  
+        </div>
+      </section>
+  
+    </main><!-- End #main -->
+  
+    <!-- Address Modal -->
+    <div class="modal fade" id="exampleModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content"> <h3><b>
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">New message</h5> -->
+            New message
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="inputAddress">Address Line 1</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address Line 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <input type="text" class="form-control" id="inputState">
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+          </b></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid text-center sticky-bottom" id="footer">
+      <p>© 2021 <a>OMON</a> | All rights reserved</a></p>
+    </div>
+  </body>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/main.js" charset="utf-8"></script>
+</html>
