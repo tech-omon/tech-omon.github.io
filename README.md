@@ -1,1 +1,0 @@
-# Omon Tech
