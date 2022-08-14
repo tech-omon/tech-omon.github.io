@@ -59,7 +59,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link collapsed" href="/" id="Everything">
           <i class="bi bi-grid"></i>
           <span>Everything</span>
         </a>
@@ -67,44 +67,63 @@
 
       <li class="nav-heading">Categories</li>
 
+      <li class="nav-item"> 
+        <a class="nav-link collapsed" id="Prints" data-bs-target="#Prints-nav" data-bs-toggle="collapse" aria-expanded="false"> 
+          <span>Prints</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Prints-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li> <a href="?filter=Prints/A3" id="A3"> <i class="bi bi-circle"></i><span>A3</span> </a></li>
+          <li> <a href="?filter=Prints/A4" id="A4"> <i class="bi bi-circle"></i><span>A4</span> </a></li>
+          <li> <a href="?filter=Prints/A5" id="A5"> <i class="bi bi-circle"></i><span>A5</span> </a></li>
+          <li> <a href="?filter=Prints/INCHES" id="INCHES"> <i class="bi bi-circle"></i><span>Inches</span> </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item"> 
+        <a class="nav-link collapsed" id="Stationery" data-bs-target="#Stationery-nav" data-bs-toggle="collapse" aria-expanded="false"> 
+          <span>Stationery</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="Stationery-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li> <a href="?filter=Stationery/Notebooks" id="Notebooks"> <i class="bi bi-circle"></i><span>Notebooks</span> </a></li>
+          <li> <a href="?filter=Stationery/Brown_Envelope" id="Brown_Envelope"> <i class="bi bi-circle"></i><span>Brown Envelopes</span> </a></li>
+          <li> <a href="?filter=Stationery/White_Envelope" id="White_Envelope"> <i class="bi bi-circle"></i><span>White Envelopes</span> </a></li>
+          <li> <a href="?filter=Stationery/Colour Stickers" id="Colour Stickers"> <i class="bi bi-circle"></i><span>Colour Stickers</span> </a></li>
+          <li> <a href="?filter=Stationery/BW_Stickers" id="BW_Stickers"> <i class="bi bi-circle"></i><span>Black & White Stickers</span> </a></li>
+        </ul>
+      </li>
+
       <li class="nav-item">
-        <a class="nav-link collapsed" href="users-profile.html">
-          <span>Prints</span>
+        <a class="nav-link collapsed" href="?filter=Badges" id="Badges">
+          <span>Badges</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
-          <span>Books</span>
+        <a class="nav-link collapsed" href="?filter=Postcards" id="Postcards">
+          <span>Postcards</span>
         </a>
       </li>
-
+      
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-contact.html">
-          <span>Greetings & Postcards</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-register.html">
-          <span>Mugs</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-login.html">
+        <a class="nav-link collapsed" href="?filter=Homewares" id="Homewares">
           <span>Homewares</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-error-404.html">
-          <span>Clothing</span>
+        <a class="nav-link collapsed" href="?filter=Mugs" id="Mugs">
+          <span>Mugs</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-blank.html">
+        <a class="nav-link collapsed" href="?filter=ToteBags" id="ToteBags">
+          <span>Tote Bags</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="?filter=Accessories" id="Accessories">
           <span>Accessories</span>
         </a>
       </li>
@@ -112,15 +131,15 @@
       <li class="nav-heading">Contact Us</li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="mailto:contact@omon.global">
-          <span>contact@omon.global</span>
+        <a class="nav-link collapsed" href="mailto:onmyownnow.g@gmail.com">
+          <span>onmyownnow.g@gmail.com</span>
         </a>
       </li>
 
-      <li class="nav-heading">Social Media</li>
+      <!-- <li class="nav-heading">Social Media</li> -->
     </ul>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-4">
         <img src="./assets/img/icons/twitter.png">
       </div>
@@ -130,7 +149,7 @@
       <div class="col-4">
         <img src="./assets/img/icons/insta.png">
       </div>
-    </div>
+    </div> -->
 
   </aside><!-- End Sidebar-->
 
